@@ -4,21 +4,23 @@
 
 class ofParticle
 {
-public:
-
-	ofPoint position;
-	float radius;
+protected:
+	ofPoint location;
+	int radius;
 	ofVec2f speed;
-
-
+	long lifetime;
 
 	ofColor centerColour;
-	ofColor insideColour;
-	ofColor outsideColour;
-	
-	ofParticle();
+	ofColor innerColor;
+	ofColor outerColor;
 
-	void move();
+public:
+	ofParticle(); // constructor
+
+	void init();
+
+	virtual void move();
+
 	void draw();
 };
 
