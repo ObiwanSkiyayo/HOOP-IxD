@@ -1,0 +1,10 @@
+﻿  main.cpp
+  ofApp.cpp
+  CurvingParticle.cpp
+  Emitter.cpp
+  ofParticle.cpp
+     Creating library bin\OpdrLes5_debug.lib and object bin\OpdrLes5_debug.exp
+  OpdrLes5.vcxproj -> D:\Openframeworks\HOOP\HOOP-IxD\Opdracht-005\OpdrLes5\bin\OpdrLes5_debug.exe
+  OpdrLes5.vcxproj -> bin\OpdrLes5_debug.pdb (Full PDB)
+  
+  	                   9	D:\Openframeworks\of_v0.9.7_vs_release\export\vs\Win32\
